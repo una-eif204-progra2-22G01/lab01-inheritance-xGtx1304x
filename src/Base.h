@@ -4,7 +4,8 @@
 
 #ifndef LAB01_INHERITANCE_XGTX1304X_BASE_H
 #define LAB01_INHERITANCE_XGTX1304X_BASE_H
-
+#include <iostream>
+using namespace std;
 
 class Base {
 public:
