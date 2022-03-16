@@ -10,4 +10,5 @@ int main(int argc, const char *argv[]) {
     Derived2 derived2;
     derived2.doSomething();
 
+    return 0;
 }  // end function main
