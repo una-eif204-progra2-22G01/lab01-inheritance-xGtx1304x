@@ -4,9 +4,9 @@
 
 #ifndef LAB01_INHERITANCE_XGTX1304X_DERIVED2_H
 #define LAB01_INHERITANCE_XGTX1304X_DERIVED2_H
-#include "Derived1.h"
+#include "Base.h"
 
-class Derived2 final : public Derived1 {
+class Derived2 final : public Base {
 public:
     Derived2() = default;
     ~Derived2() final = default;

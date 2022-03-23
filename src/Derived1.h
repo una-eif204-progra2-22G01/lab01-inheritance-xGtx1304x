@@ -6,11 +6,11 @@
 #define LAB01_INHERITANCE_XGTX1304X_DERIVED1_H
 #include "Base.h"
 
-class Derived1 : public Base {
+class Derived1 final : public Base {
 public:
     Derived1() = default;
-    ~Derived1() override = default;
-    void doSomething() override;
+    ~Derived1() final = default;
+    void doSomething() final;
 };
 
 
